@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card Template for BetterCast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #202020;
+            background: linear-gradient(45deg, #0ba9b5, #b722ee);
+        }
+        .card {
+            background-color: #fff;
+            display: flex;
+            width: 50vw;
+            height: 50vh;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+        }
+        .card:hover {
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.2),0 3px 10px 0 rgba(0,0,0,.19);
+        }
+        .before {
+            background-color: #0ba9b5;
+            width: 3px;
+            height: 75%;
+        }
+        .profile-img img {
+            height: 220px;
+            width: 220px;
+            border-radius: 50%;
+            border: 3px solid #0ba9b5;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+        }
+        .profile-img img:hover {
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.2),0 3px 10px 0 rgba(0,0,0,.19);
+        }
+        a {
+            text-decoration: none;
+            color: #202020;
+        }
+        h1 {
+            color: #202020;
+            font-size: 2.5rem;
+        }
+        h4 {
+            font-weight: 400;
+        }
+        i {
+            margin-right: 25px;
+            color: #0ba9b5;
+        }
+        span{
+            color: #0ba9b5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Card Section Start -->
+    <section class="card">
+        <!-- Profile Image Section Ends -->
+        <div class="image-area">
+            <div class="profile-img">
+                <img src="https://workfunc.com/wp-content/uploads/2019/12/500x500-speaker-29.jpg" alt="BetterCast Team" />
+            </div>
+        </div>
+        <!-- Profile Image Section Ends -->
+        <div class="before"></div>
+        <!-- Profile Information Start -->
+        <div class="info-area">
+            <div class="profile-info">
+                <h1>John <span>Kendall</span></h1>
+                <h4><i class="fa-light fa-phone"></i>+353  1685 9074</h4>
+                <h4><a href="mailto:someone@example.com"><i class="far fa-envelope"></i>hello@Kendall.com</a></h4>
+                <h4><i class="fas fa-map-marker-alt"></i>715 Broadway, New York</h4>
+            </div>
+        </div>
+        <!-- Profile Information Ends -->
+    </section>
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/a451e391f4.js" crossorigin="anonymous"></script>
+</body>
+</html>
